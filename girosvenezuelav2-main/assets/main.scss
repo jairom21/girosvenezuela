@@ -1,0 +1,64 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.p-color {
+  color: #123E65 !important;
+}
+.theme--light.v-application {
+  background: #E7EBEF !important;
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+.disabled {
+  pointer-events: none;
+  background: gray !important;
+}
+input,
+.v-alert,
+.v-label,
+.v-input {
+  font-size: 14px !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+} 
+.h-full {
+  height: 100%;
+}
+.b-shadow {
+  box-shadow: 0 0px 10px rgba(0,0,0,.2) !important;
+}
+.border {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.b-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.c-pointer {
+  cursor: pointer;
+}
+.c-hover:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.w-full {
+  width: 100%;
+}
+.rounded {
+  border-radius: 4px;
+}
+._drawer .v-navigation-drawer__content {
+  display: flex !important;
+  flex-direction: column;
+}
+.flex-auto {
+  flex: 1 0 auto;
+}
+.select-none {
+  user-select: none;
+}
