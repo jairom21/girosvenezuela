@@ -48,6 +48,7 @@ export default {
 
     '@nuxtjs/vuetify',
     '@nuxtjs/moment',
+    '@nuxtjs/date-fns',
   ],
   moment: {
     defaultLocale: 'es',
