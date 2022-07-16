@@ -3,21 +3,21 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _485185d2 = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages_admin_index" */))
-const _6c769f34 = () => interopDefault(import('..\\pages\\calculador.vue' /* webpackChunkName: "pages_calculador" */))
-const _44fc8a9c = () => interopDefault(import('..\\pages\\dashboard\\index.vue' /* webpackChunkName: "pages_dashboard_index" */))
-const _a6d697b6 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages_login" */))
-const _1c21da05 = () => interopDefault(import('..\\pages\\recuperar.vue' /* webpackChunkName: "pages_recuperar" */))
-const _4615560d = () => interopDefault(import('..\\pages\\admin\\calculator.vue' /* webpackChunkName: "pages_admin_calculator" */))
-const _43df7906 = () => interopDefault(import('..\\pages\\admin\\ordenes.vue' /* webpackChunkName: "pages_admin_ordenes" */))
-const _778ac3ba = () => interopDefault(import('..\\pages\\admin\\puntos.vue' /* webpackChunkName: "pages_admin_puntos" */))
-const _171af682 = () => interopDefault(import('..\\pages\\admin\\remitentes.vue' /* webpackChunkName: "pages_admin_remitentes" */))
-const _66afd798 = () => interopDefault(import('..\\pages\\dashboard\\cuenta.vue' /* webpackChunkName: "pages_dashboard_cuenta" */))
-const _49e45c5e = () => interopDefault(import('..\\pages\\dashboard\\movimientos.vue' /* webpackChunkName: "pages_dashboard_movimientos" */))
-const _35614acc = () => interopDefault(import('..\\pages\\dashboard\\notificaciones.vue' /* webpackChunkName: "pages_dashboard_notificaciones" */))
-const _26a4ff35 = () => interopDefault(import('..\\pages\\dashboard\\reportar.vue' /* webpackChunkName: "pages_dashboard_reportar" */))
-const _125cc4ce = () => interopDefault(import('..\\pages\\dashboard\\resumen\\orden.vue' /* webpackChunkName: "pages_dashboard_resumen_orden" */))
-const _3a25dde4 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _5969a701 = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages_admin_index" */))
+const _2446e660 = () => interopDefault(import('..\\pages\\calculador.vue' /* webpackChunkName: "pages_calculador" */))
+const _16991f9c = () => interopDefault(import('..\\pages\\dashboard\\index.vue' /* webpackChunkName: "pages_dashboard_index" */))
+const _28eb3d7b = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages_login" */))
+const _0cc7c85b = () => interopDefault(import('..\\pages\\recuperar.vue' /* webpackChunkName: "pages_recuperar" */))
+const _2fea8e63 = () => interopDefault(import('..\\pages\\admin\\calculator.vue' /* webpackChunkName: "pages_admin_calculator" */))
+const _40afdae7 = () => interopDefault(import('..\\pages\\admin\\ordenes.vue' /* webpackChunkName: "pages_admin_ordenes" */))
+const _a774d1e0 = () => interopDefault(import('..\\pages\\admin\\puntos.vue' /* webpackChunkName: "pages_admin_puntos" */))
+const _437085d6 = () => interopDefault(import('..\\pages\\admin\\remitentes.vue' /* webpackChunkName: "pages_admin_remitentes" */))
+const _50850fee = () => interopDefault(import('..\\pages\\dashboard\\cuenta.vue' /* webpackChunkName: "pages_dashboard_cuenta" */))
+const _5f52e9c8 = () => interopDefault(import('..\\pages\\dashboard\\movimientos.vue' /* webpackChunkName: "pages_dashboard_movimientos" */))
+const _1d2c4620 = () => interopDefault(import('..\\pages\\dashboard\\notificaciones.vue' /* webpackChunkName: "pages_dashboard_notificaciones" */))
+const _1fe50bea = () => interopDefault(import('..\\pages\\dashboard\\reportar.vue' /* webpackChunkName: "pages_dashboard_reportar" */))
+const _02ec1fef = () => interopDefault(import('..\\pages\\dashboard\\resumen\\orden.vue' /* webpackChunkName: "pages_dashboard_resumen_orden" */))
+const _5f439a64 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -37,63 +37,63 @@ export const routerOptions = {
 
   routes: [{
     path: "/admin",
-    component: _485185d2,
+    component: _5969a701,
     name: "admin"
   }, {
     path: "/calculador",
-    component: _6c769f34,
+    component: _2446e660,
     name: "calculador"
   }, {
     path: "/dashboard",
-    component: _44fc8a9c,
+    component: _16991f9c,
     name: "dashboard"
   }, {
     path: "/login",
-    component: _a6d697b6,
+    component: _28eb3d7b,
     name: "login"
   }, {
     path: "/recuperar",
-    component: _1c21da05,
+    component: _0cc7c85b,
     name: "recuperar"
   }, {
     path: "/admin/calculator",
-    component: _4615560d,
+    component: _2fea8e63,
     name: "admin-calculator"
   }, {
     path: "/admin/ordenes",
-    component: _43df7906,
+    component: _40afdae7,
     name: "admin-ordenes"
   }, {
     path: "/admin/puntos",
-    component: _778ac3ba,
+    component: _a774d1e0,
     name: "admin-puntos"
   }, {
     path: "/admin/remitentes",
-    component: _171af682,
+    component: _437085d6,
     name: "admin-remitentes"
   }, {
     path: "/dashboard/cuenta",
-    component: _66afd798,
+    component: _50850fee,
     name: "dashboard-cuenta"
   }, {
     path: "/dashboard/movimientos",
-    component: _49e45c5e,
+    component: _5f52e9c8,
     name: "dashboard-movimientos"
   }, {
     path: "/dashboard/notificaciones",
-    component: _35614acc,
+    component: _1d2c4620,
     name: "dashboard-notificaciones"
   }, {
     path: "/dashboard/reportar",
-    component: _26a4ff35,
+    component: _1fe50bea,
     name: "dashboard-reportar"
   }, {
     path: "/dashboard/resumen/orden",
-    component: _125cc4ce,
+    component: _02ec1fef,
     name: "dashboard-resumen-orden"
   }, {
     path: "/",
-    component: _3a25dde4,
+    component: _5f439a64,
     name: "index"
   }],
 

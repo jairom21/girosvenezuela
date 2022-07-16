@@ -12,9 +12,10 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_be752e1a from 'nuxt_plugin_plugin_be752e1a' // Source: .\\vuetify\\plugin.js (mode: 'all')
-import nuxt_plugin_clipboard_131b7da4 from 'nuxt_plugin_clipboard_131b7da4' // Source: .\\clipboard.js (mode: 'client')
-import nuxt_plugin_moment_5dc0bdd4 from 'nuxt_plugin_moment_5dc0bdd4' // Source: .\\moment.js (mode: 'all')
+import nuxt_plugin_plugin_0a44e4e1 from 'nuxt_plugin_plugin_0a44e4e1' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_clipboard_66ddc4f6 from 'nuxt_plugin_clipboard_66ddc4f6' // Source: .\\clipboard.js (mode: 'client')
+import nuxt_plugin_datefns_5197cd76 from 'nuxt_plugin_datefns_5197cd76' // Source: .\\date-fns.js (mode: 'all')
+import nuxt_plugin_moment_960bf07c from 'nuxt_plugin_moment_960bf07c' // Source: .\\moment.js (mode: 'all')
 import nuxt_plugin_prototypes_37f13f87 from 'nuxt_plugin_prototypes_37f13f87' // Source: ..\\plugins\\prototypes (mode: 'all')
 import nuxt_plugin_inject_5d3a56f2 from 'nuxt_plugin_inject_5d3a56f2' // Source: ..\\plugins\\inject (mode: 'all')
 
@@ -178,16 +179,20 @@ async function createApp (ssrContext) {
 
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_be752e1a === 'function') {
-    await nuxt_plugin_plugin_be752e1a(app.context, inject)
+  if (typeof nuxt_plugin_plugin_0a44e4e1 === 'function') {
+    await nuxt_plugin_plugin_0a44e4e1(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_clipboard_131b7da4 === 'function') {
-    await nuxt_plugin_clipboard_131b7da4(app.context, inject)
+  if (process.client && typeof nuxt_plugin_clipboard_66ddc4f6 === 'function') {
+    await nuxt_plugin_clipboard_66ddc4f6(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_moment_5dc0bdd4 === 'function') {
-    await nuxt_plugin_moment_5dc0bdd4(app.context, inject)
+  if (typeof nuxt_plugin_datefns_5197cd76 === 'function') {
+    await nuxt_plugin_datefns_5197cd76(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_moment_960bf07c === 'function') {
+    await nuxt_plugin_moment_960bf07c(app.context, inject)
   }
 
   if (typeof nuxt_plugin_prototypes_37f13f87 === 'function') {
